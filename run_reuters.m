@@ -2,9 +2,8 @@ close all;
 clear;
 clc;
 
-addpath('..\data');
-addpath('..\utility');
-addpath('..\mnistHelper');
+addpath('data');
+addpath('utility');
 
 % load the training data from the MNIST database files.
 load('reuters.mat');
@@ -26,7 +25,6 @@ for nv_idx = 1 : nv
 end
 gnd =  Y(rand_set, 1)';
 
-% alpas = [1e-4, 5e-4, 1e-3, 5e-3, 1e-2, 5e-2, 0.1, 0.5, 1, 2, 5, 10, 20, 50];
 alphas = [0.05];
 dims = [10]; 
 
