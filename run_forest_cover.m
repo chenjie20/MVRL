@@ -14,7 +14,6 @@ K = max(forest_cover_labels);
 gnd = forest_cover_labels;
 max_num_per_cluster = floor(n / K);
 
-% alphas = [1e-4, 5e-4, 1e-3, 5e-3, 1e-2, 5e-2, 0.1, 0.5, 1, 2, 5, 10, 20, 50];
 alphas = [1e-3];
 dims = [30];
 
