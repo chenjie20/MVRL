@@ -2,8 +2,8 @@ close all;
 clear;
 clc;
 
-addpath('..\data');
-addpath('..\utility');
+addpath('data');
+addpath('utility');
 
 load('forest_cover_data.mat');
 [row_dim, total_num] = size(forest_cover_data);
