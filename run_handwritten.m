@@ -2,8 +2,8 @@ close all;
 clear;
 clc;
 
-addpath('..\data');
-addpath('..\utility');
+addpath('data');
+addpath('utility');
 
 load('handwritten.mat');
 
