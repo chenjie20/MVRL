@@ -1,5 +1,5 @@
 # MVRL
-Multi-View Representation Learning for Data Stream Clustering. https://www.sciencedirect.com/science/article/pii/S002002552201091X
+Multi-View Representation Learning for Data Stream Clustering. Information Sciences: https://www.sciencedirect.com/science/article/pii/S002002552201091X
 
 @article{Chen2022MVRL,
   author        = "J. Chen and S. Yang and Z. Wang",
